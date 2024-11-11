@@ -39,7 +39,6 @@ function App() {
         <Route path="/tipos-cuota" element={<ManageTypeQuota />} /> 
         <Route path="/asignar-cuota" element={<AddQuotaMember />} /> 
 
-
         <Route path="/editar-pago/:id" element={<EditarPago />} />  
         <Route exact path='/configuracion-cuotas' element={<ConfigCuota />} />
 
