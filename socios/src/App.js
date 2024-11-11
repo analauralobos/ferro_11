@@ -42,7 +42,6 @@ function App() {
         <Route path="/editar-pago/:id" element={<EditarPago />} />  
         <Route exact path='/configuracion-cuotas' element={<ConfigCuota />} />
 
-
       </Routes>
     </BrowserRouter>
   );
